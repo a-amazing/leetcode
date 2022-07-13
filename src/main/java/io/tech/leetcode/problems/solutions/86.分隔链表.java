@@ -56,7 +56,9 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+import io.tech.leetcode.common.ListNode;
+
+public class Solution {
     public ListNode partition(ListNode head, int x) {
         if(head == null){
             return null;
