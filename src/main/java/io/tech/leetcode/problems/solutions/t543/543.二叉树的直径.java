@@ -1,4 +1,4 @@
-/*
+package io.tech.leetcode.problems.solutions.t543;/*
  * @lc app=leetcode.cn id=543 lang=java
  *
  * [543] 二叉树的直径

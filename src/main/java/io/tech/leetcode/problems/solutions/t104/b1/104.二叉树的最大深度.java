@@ -1,4 +1,4 @@
-/*
+package io.tech.leetcode.problems.solutions.t104.b1;/*
  * @lc app=leetcode.cn id=104 lang=java
  *
  * [104] 二叉树的最大深度

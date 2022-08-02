@@ -1,4 +1,4 @@
-/*
+package io.tech.leetcode.problems.solutions.t86;/*
  * @lc app=leetcode.cn id=86 lang=java
  *
  * [86] 分隔链表

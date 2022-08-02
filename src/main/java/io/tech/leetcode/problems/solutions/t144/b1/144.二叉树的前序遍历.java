@@ -1,4 +1,4 @@
-/*
+package io.tech.leetcode.problems.solutions.t144.b1;/*
  * @lc app=leetcode.cn id=144 lang=java
  *
  * [144] 二叉树的前序遍历
@@ -84,18 +84,20 @@
  * }
  */
 class Solution {
+    List<Integer> result = new ArrayList<Integer>();
 
     public List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> result = new ArrayList<>();
-        if(root == null){
-            return result;
-        }
-
-        result.add(root.val);
-        result.addAll(preorderTraversal(root.left));
-        result.addAll(preorderTraversal(root.right));
-
+        traverse(root);
         return result;
+    }
+
+    public void traverse(TreeNode root){
+        if(root == null){
+            return;
+        }
+        result.add(root.val);
+        traverse(root.left);
+        traverse(root.right);
     }
 }
 // @lc code=end
